@@ -72,10 +72,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Proyecto React con Tailwind CSS
 
-Este es un proyecto web desarrollado con **React** y **Tailwind CSS**. El objetivo es crear una interfaz de usuario moderna y responsiva para una tienda en línea que presenta componentes reutilizables como un Navbar, contenido principal, footer, tarjeta de producto y un formulario de contacto.
+Este es un proyecto web desarrollado con **React** y **Tailwind CSS**. El objetivo es crear un contador utilizando diferentes elementos. 
+Cuenta con diseño responsive y colores amigables. 
 
 ## Tecnologías utilizadas
-
 - **React**: Biblioteca de JavaScript para crear interfaces de usuario.
 - **Tailwind CSS**: Framework de CSS para un diseño rápido y moderno.
 - **JavaScript (ES6+)**: Para la lógica del proyecto.
