@@ -1,24 +1,18 @@
-import './App.css';
-import Navbar from './components/navbar';
-import MainContent from './components/content';
-import Footer from './components/footer';
-import ProductCard from './components/product';
-import ContactForm from './components/forms';
+import React from "react";
+import Contador from "./components/Contador";
+import Seccion from "./components/Seccion";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <MainContent />
-      <div className="my-8">
-        <ProductCard />
-      </div>
-      <div className="my-8">
-        <ContactForm />
-      </div>
-      <Footer />
+    <div className="min-h-screen bg-slate-300 flex flex-col items-center justify-center">
+      <Seccion
+        titulo="Gabriel Campos"
+        descripcion="Proyecto de contador :D"
+      >
+        <Contador />
+      </Seccion>
     </div>
   );
-}
+};
 
 export default App;
